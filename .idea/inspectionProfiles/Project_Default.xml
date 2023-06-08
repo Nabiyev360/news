@@ -1,0 +1,60 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="li" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyDataclassInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="aiogram" />
+            <item index="1" class="java.lang.String" itemvalue="openpyxl" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8NamingInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="os._exit" />
+          <option value="project.storage.models.Order.objects" />
+          <option value="project.storage.models.OrderItem.objects" />
+          <option value="project.storage.models.Product.objects" />
+          <option value="project.storage.models.Customer.objects" />
+          <option value="project.storage.models.ProductCategory.objects" />
+          <option value="project.api.models.Route.objects" />
+          <option value="project.api.models.Shooter.*" />
+          <option value="project.api.models.PlatformUser.*" />
+          <option value="project.api.models.UserProfile.objects" />
+          <option value="rest_framework.authtoken.models.Token.objects" />
+          <option value="project.api.models.Organization.objects" />
+          <option value="project.api.models.Position.objects" />
+          <option value="project.api.models.Station.objects" />
+          <option value="django.db.models.fields.CharField.__add__" />
+          <option value="project.exploitation.models.Employee.objects" />
+          <option value="project.exploitation.models.DriverLicense.objects" />
+          <option value="project.exploitation.models.Comment.objects" />
+          <option value="project.exploitation.models.EmployActivity.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
